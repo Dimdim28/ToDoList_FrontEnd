@@ -1,0 +1,109 @@
+@import 'src/styles/partials/theme';
+
+.wrapper {
+  height: calc(100% - 80px);
+  width: 100%;
+  background-color: $background-dark-35;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.addColumnButton {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  background-color: $info-200;
+  color: $white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $amber-300;
+  }
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+  height: calc(100% - 44px);
+}
+
+.column {
+  background-color: $background-dark-10;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.columnHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addTaskButton {
+  background-color: $success-200;
+  color: $white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color $transition-delay;
+
+  &:hover {
+    background-color: $success-300;
+  }
+}
+
+.columnTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: $warning-200;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 50px;
+  flex-grow: 1;
+}
+
+.task {
+  background-color: $background-dark-0;
+  border-radius: 4px;
+  padding: 10px;
+  color: $gray-100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all $transition-delay;
+
+  &:hover {
+    transform: scale(1.03);
+    background-color: $success-100;
+    color: $white;
+  }
+}
+
+.assignedUsers {
+  display: flex;
+  gap: 5px;
+
+  .userAvatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

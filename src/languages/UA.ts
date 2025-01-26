@@ -1,6 +1,7 @@
 const UA = {
   profile: 'Профіль',
   home: 'Головна',
+  board: 'Дошки',
   footer: 'MyTaskManager допоможе вам краще організувати свій час',
   serverError: 'Помилка серверу',
   categories: 'Категорії',
@@ -19,9 +20,10 @@ const UA = {
   registered: 'Створено',
   logOut: 'Вийти',
   changePassword: 'Змінити пароль',
-  deleteAccount: 'Видалити акаунт', 
+  deleteAccount: 'Видалити акаунт',
   showMyId: 'Показати мій ID',
-  changeAvatarEffect: "Змінити еффект аватару",
+  changeAvatarEffect: 'Змінити еффект аватару',
+  changeProfileEffect: 'Змінити еффект профілю ',
   day: 'День',
   week: 'Тиждень',
   month: 'Місяць',
@@ -117,9 +119,15 @@ const UA = {
   v: 'в.',
   dev: '(розр.)',
   rejected: 'Відхилено',
+  ignored: 'Без відповіді',
   completedSub: 'Завершено',
   subtaskConfirmation: 'Запит на підтвердження завдання',
+  userAcceptedSubtask: 'Користувач прийняв вашу підзадачу',
+  userRejectedSubtask: 'Користувач відхилив вашу підзадачу',
+  userCompletedSubtask: 'Користувач виконав вашу підзадачу',
   noNotifications: 'Нема сповіщень',
+  banUser: 'Заблокувати',
+  revokeUser: 'Розблокувати',
 };
 
 export default UA;

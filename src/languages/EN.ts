@@ -1,7 +1,8 @@
 const EN = {
   profile: 'Profile',
   home: 'Home',
-  footer: 'MyTaskManager list will help you to manage your tasks',
+  board: 'Boards',
+  footer: 'MyTaskManager will help you to manage your time',
   serverError: 'Server error',
   categories: 'Categories',
   noCategories: 'You have no categories',
@@ -21,7 +22,8 @@ const EN = {
   changePassword: 'Change password',
   deleteAccount: 'Delete account',
   showMyId: 'Show my ID',
-  changeAvatarEffect: "Change avatar effect",
+  changeAvatarEffect: 'Change avatar effect',
+  changeProfileEffect: 'Change profile effect',
   day: 'Day',
   week: 'Week',
   month: 'Month',
@@ -116,9 +118,15 @@ const EN = {
   v: 'v.',
   dev: '(dev.)',
   rejected: 'Rejected',
+  ignored: 'No answer',
   completedSub: 'Completed',
   subtaskConfirmation: 'Accepting task request',
+  userAcceptedSubtask: 'User accepted your subtask',
+  userRejectedSubtask: 'User rejected your subtask',
+  userCompletedSubtask: 'User completed your subtask',
   noNotifications: 'No notifications',
+  banUser: 'Ban User',
+  revokeUser: 'Revoke User',
 };
 
 export default EN;

@@ -109,3 +109,14 @@ export enum TranslationKeys {
   Answer9 = 'answer9',
   Answer10 = 'answer10',
 }
+
+export type Avatar = {
+  url: string;
+  public_id: string;
+};
+
+export type User = {
+  _id: string;
+  username: string;
+  avatar: string;
+};
